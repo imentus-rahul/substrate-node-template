@@ -180,3 +180,6 @@ For example:
 # Check whether the code is compilable
 ./scripts/docker_run.sh cargo check
 ```
+
+### check dependencies
+cargo check -p node-template-runtime --release
